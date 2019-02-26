@@ -15,5 +15,8 @@ export default {
 </script>
 
 <style>
-
+.movieList{
+  padding: 5px;
+  border-bottom: 1px dashed #ababab;
+}
 </style>

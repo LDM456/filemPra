@@ -16,6 +16,15 @@ export default new Router({
       path:'/robot',
       name:'Robot',
       component: Robot
+    },
+    {
+      path:'/moviesList',
+      name:'moviesList',
+      component:resolve => require(['../pages/moviesList.vue'],resolve)
+    },
+    {
+      path:'/movieDetail',
+      component:resolve => require(['../pages/movieDetail.vue'],resolve)
     }
   ]
 })

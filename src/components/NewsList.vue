@@ -14,6 +14,10 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="css" scoped>
+  .newsList{
+    padding: 5px;
+    font-size: 10px;
+    border-bottom: 1px dashed #ababab;
+  }
 </style>

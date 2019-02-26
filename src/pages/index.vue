@@ -58,5 +58,30 @@ export default {
 </script>
 
 <style>
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .contentMain{
+    padding-top: 15px;
+  }
+  .userMessage{
+    margin-top:0px;
+    margin-left: 0px;
+  }
+  .contentPic{
+    padding-top:5px;
+  }
 
+  .cont-ul {
+    padding-top: 0.5rem;
+    background-color: #fff;
+  }
+  .cont-ul::after {
+    content: '';
+    display: block;
+    clear: both;
+    width: 0;
+    height: 0;
+  }
 </style>
