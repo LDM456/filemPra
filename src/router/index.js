@@ -25,6 +25,26 @@ export default new Router({
     {
       path:'/movieDetail',
       component:resolve => require(['../pages/movieDetail.vue'],resolve)
-    }
+    },
+    {
+      path:'/newDetail',
+      name:'newDetail',
+      component: resolve => require(['../pages/newDetail.vue'],resolve)
+    },
+    {
+      path:'/loginPage',
+      name:'loginPage',
+      component: resolve => require(["../pages/loginPage.vue"],resolve)
+    },
+    {
+      path:'/registerPage',
+      name:'registerPage',
+      component: resolve => require(["../pages/registerPage.vue"],resolve)
+    },
+    {
+      path:'/userInfo',
+      name:'userInfo',
+      component: resolve => require(["../pages/userInfo.vue"],resolve)
+    },
   ]
 })
